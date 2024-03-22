@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
 import Language from "../Language/Language";
 import { useTranslation } from "react-i18next";
-import Logo from "../../assets/Image/des_logo.svg";
+import Logo from "../../assets/Image/des_logo.png";
 
 function Navbar() {
   const [handleMenu, setHandleMenu] = useState(false);
@@ -63,14 +63,7 @@ function Navbar() {
                   </a>
                 ))}
 
-                {/* <a
-                  className="phone_btn_link gg"
-                  href="#contact"
-                  onClick={() => setHandleMenu(!handleMenu)}
-                >
-                  {t("navBtn")}
-                </a> */}
-               <a href="#contact" className="gg"
+                  <a href="#contact" className="gg"
                onClick={() => setHandleMenu(!handleMenu)}
                >
                <button className="custom-btn_nav btn-11_nav">
@@ -94,10 +87,7 @@ function Navbar() {
                 {t("navBtn")}<div className="dot"></div>
                 </button>
                 </a>
-                {/* <a className="phone_btn_link gg1" href="#contact">
-                  {t("navBtn")}
-                </a> */}
-                <button
+                  <button
                   className="open_menu"
                   onClick={() => setHandleMenu(!handleMenu)}
                 >

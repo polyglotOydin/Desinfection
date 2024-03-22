@@ -21,7 +21,6 @@
 .btn-11 {
     border: none;
     background: rgb(251, 33, 33);
-    background: linear-gradient(0deg, rgb(251, 33, 33) 0%, rgb(185, 76, 100) 100%);
     color: #fff;
     overflow: hidden;
 }

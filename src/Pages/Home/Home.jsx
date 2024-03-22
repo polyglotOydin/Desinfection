@@ -1,7 +1,7 @@
 
 import "./Home.css";
 //import MiniPic from "../../assets/Image/diz-main.png";
-import HeroPic from "../../assets/Image/disin_pink_hero.jpg";
+import HeroPic from "../../assets/Image/disin_pink_hero.png";
 import { useTranslation } from "react-i18next";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -33,13 +33,7 @@ function Home() {
               </button>
               </a>
               </ScrollAnimation>
-              {/* <a className="hero_contact_el" href="#contact">
-                <h4 className="hero_contact_text">{t("homeBtn")}</h4>
-                <span className="hero_contact_icon">
-                  <FiArrowUpRight />
-                </span>
-              </a> */}
-            </div>
+               </div>
 
             <div className="home_right">
               <img className="home_rightpic" src={HeroPic} alt="Main image" />

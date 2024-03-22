@@ -33,6 +33,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-left: -100px;
+
 }
 
 
@@ -51,15 +53,12 @@
     font-family: Unbounded;
     position: relative;
     display: inline-block;
-    /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1); */
+    
     outline: none;
 }
 .btn-11_nav {
     border: none;
     background: rgb(251, 33, 33);
-    background: linear-gradient(0deg, rgb(251, 33, 33) 0%, rgb(59, 105, 230) 100%);
     color: #fff;
     overflow: hidden;
 }
@@ -136,7 +135,7 @@
     font-family: Unbounded;
     width: 200px;
     height: 50px;
-    background-color: rgba(0, 52, 194, 0.762);
+    background-color: rgb(251, 33, 33);
     color: #ffff;
     font-size: 22px;
     font-weight: 600;

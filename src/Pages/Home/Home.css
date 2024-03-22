@@ -224,7 +224,7 @@
     }
 
     .home_flex {
-        background: linear-gradient(65deg, rgba(134, 132, 132, 0.616), rgba(0, 0, 0, 0.205)), url('../../assets/Image/hero.jpg');
+        background: linear-gradient(65deg, rgba(134, 132, 132, 0.616), rgba(0, 0, 0, 0.205)), url('../../assets/Image/disin_pink_hero.png');
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px 20px;
@@ -322,7 +322,7 @@
     }
 
     .hero_contact_text {
-        width: 200px;
+        width: 100px;
         height: 50px;
         font-size: 17px;
     }

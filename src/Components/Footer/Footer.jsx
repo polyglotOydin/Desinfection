@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import ScrollAnimation from "react-animate-on-scroll";
 import { BiPhone } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
-import LogoFooter from "../../assets/Image/des_logo.svg";
+import LogoFooter from "../../assets/Image/des_logo.png";
 
 function Footer() {
 
