@@ -180,6 +180,7 @@
 .mini_pic_home{
 position: absolute;
 left: 500px;
+top: 350px;
 }
 
 @media (max-width: 1100px) {
