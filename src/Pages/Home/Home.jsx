@@ -1,6 +1,6 @@
 
 import "./Home.css";
-//import MiniPic from "../../assets/Image/diz-main.png";
+import MiniPic from "../../assets/Image/virus.png";
 import HeroPic from "../../assets/Image/disin_pink_hero.png";
 import { useTranslation } from "react-i18next";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -23,18 +23,24 @@ function Home() {
                 <ScrollAnimation animateIn="bounceInLeft">
                 <p className="home_info">{t("homedesc")}</p>
                 </ScrollAnimation>
-
-               
               </div>
-              <ScrollAnimation animateIn="bounceInLeft">
+             
+             
+              
               <a href="#contact">
               <button className="custom-btn_home btn-11_home btn_hm_H">
                   {t("homeBtn")}<div className="dot"></div>
               </button>
               </a>
-              </ScrollAnimation>
+            
                </div>
-
+               <div className="mini_pic_home">
+                  <img
+                    className="mini_home_img"
+                    src={MiniPic}
+                    alt="mini main image"
+                  />
+                </div>
             <div className="home_right">
               <img className="home_rightpic" src={HeroPic} alt="Main image" />
             </div>

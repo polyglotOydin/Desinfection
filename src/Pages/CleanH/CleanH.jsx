@@ -28,10 +28,7 @@ function CleanH() {
                 </button>
                 </a>
               </ScrollAnimation>
-              {/* <a className="clean-h_contact_link" href="#contact">
-                {t("cleanhBtn")}
-              </a> */}
-            </div>
+               </div>
           </div>
         </div>
       </section>

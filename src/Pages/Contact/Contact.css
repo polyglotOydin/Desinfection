@@ -7,7 +7,7 @@
     width: 100%;
     height: 550px;
     border-radius: 12px;
-    background: radial-gradient(333.17% 80.94% at 51.32% 69.21%, #c398ba 0%, rgba(215, 95, 171, 0.2) 100%);
+    background: radial-gradient(333.17% 80.94% at 51.32% 69.21%,  rgb(251, 33, 33) 0%, rgba(227, 224, 226, 0.2) 100%);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -82,15 +82,7 @@
 
 
 
-/* .contact_right_pic {
-    color: #FAFAFA;
-    font-family: Unbounded;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    transform: translateX(-50px);
-} */
+
 
 
 .contact_right {

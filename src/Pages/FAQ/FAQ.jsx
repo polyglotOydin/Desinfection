@@ -4,7 +4,6 @@ import "./FAQ.css";
 import { useTranslation } from "react-i18next";
 
 function FAQ() {
-
   const [t, i18next] = useTranslation();
 
   const faqData = [
@@ -14,14 +13,12 @@ function FAQ() {
       descs: t("faqaccardionbody1"),
       handleFaq: false,
     },
-
     {
       id: 2,
       title: t("faqaccardionhead2"),
       descs: t("faqaccardionbody2"),
       handleFaq: false,
     },
-
     {
       id: 3,
       title: t("faqaccardionhead3"),
@@ -30,8 +27,11 @@ function FAQ() {
     },
   ];
 
-  const [hadleFaq ,setHandleFaq] = useState(false);
-  const [id, setId] = useState([])
+  const [openAcc, setOpenAcc] = useState(null);
+
+  const handleAccordion = (id) => {
+    setOpenAcc(openAcc === id ? null : id);
+  };
 
   return (
     <>
@@ -42,17 +42,19 @@ function FAQ() {
             <div className="faq_acrr_div">
               {faqData.map((items) => {
                 return (
-                  <div className={`${id == items.id ? "openAcc" : null} accardion`} key={items.id}>
-                    <div className="accardion_head" onClick={() => {
-                            setHandleFaq(!hadleFaq)
-                            setId(items.id);
-                          }}>
+                  <div
+                    className={`accardion ${
+                      openAcc === items.id ? "openAcc" : ""
+                    }`}
+                    key={items.id}
+                  >
+                    <div
+                      className="accardion_head"
+                      onClick={() => handleAccordion(items.id)}
+                    >
                       <h4 className="faq_title">{items.title}</h4>
                       <div className="faq_icon_div">
-                        <MdOutlineKeyboardArrowDown
-                          className="faq_acc_icon"
-                          
-                        />
+                        <MdOutlineKeyboardArrowDown className="faq_acc_icon" />
                       </div>
                     </div>
                     <div className="accardion_body">

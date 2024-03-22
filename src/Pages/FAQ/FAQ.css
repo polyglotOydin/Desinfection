@@ -36,7 +36,7 @@
 }
 
 .openAcc {
-    height: 240px;
+    height: auto;
 }
 
 .accardion_head {
@@ -114,7 +114,7 @@
     }
 
     .openAcc {
-        height: 450px;
+        height: auto;
     }
 }
 
@@ -126,7 +126,7 @@
     }
 
     .openAcc {
-        height: 290px;
+        height: auto;
     }   
     
     .accardion_head {

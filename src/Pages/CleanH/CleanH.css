@@ -1,12 +1,13 @@
 .clean-h {
     width: 100%;
     padding-bottom: 60px;
+    margin-right: 300px;
 }
 
 .clean-h_flex {
     width: 100%;
     height: 600px;
-    background-image: linear-gradient(270deg,rgba(2, 8, 21, 0.566) 70%,  rgb(102, 7, 7)), url("../../assets/Image/hh.jpg");
+    background-image: linear-gradient(270deg,rgba(21, 7, 2, 0.566) 20%,  rgb(225, 27, 27) ), url("../../assets/Image/des_red.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -17,6 +18,9 @@
     border-radius: 16px;
 }
 
+.clean_info_fath{
+ 
+}
 
 .clean-h_tr {
     width: 400px;

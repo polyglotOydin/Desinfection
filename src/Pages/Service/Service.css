@@ -17,18 +17,14 @@
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1); */
-    outline: none;
+       outline: none;
 }
 
 
 .btn-11_ser-card {
     border: none;
     background:  rgb(251, 33, 33);
-    /* background: linear-gradient(0deg, rgb(37, 33, 251) 0%, rgb(59, 105, 230) 100%); */
-    color: #fff;
+      color: #fff;
     overflow: hidden;
 }
 
@@ -123,15 +119,14 @@
     max-width: 443px;
     height: 450px;
     border-radius: 12px;
-    background: radial-gradient(333.17% 80.94% at 51.32% 69.21%, #c398ba 0%, rgba(227, 224, 226, 0.2) 100%);
-    background: ;
+    background: radial-gradient(333.17% 80.94% at 51.32% 69.21%, #d90d0d 0%, rgba(227, 224, 226, 0.2) 100%);
     margin-right: 16px;
     margin-top: 16px;
     padding: 20px;
 }
 
 .service_card_title {
-    color: #020C31;
+    color: #fff;
     font-family: Unbounded;
     font-size: 32px;
     font-style: normal;
@@ -140,7 +135,7 @@
 }
 
 .service_card_text {
-    color: #495157;
+    color: #fff;
     font-family: Unbounded;
     font-size: 16px;
     font-style: normal;
@@ -200,7 +195,7 @@
     align-items: center;
     justify-content: space-around;
     margin-bottom: 30px;
-    background:radial-gradient(333.17% 80.94% at 51.32% 69.21%, #c398ba 0%, rgba(227, 224, 226, 0.2) 100%); 
+    background:radial-gradient(333.17% 80.94% at 51.32% 69.21%, #d90d0d 0%, rgba(227, 224, 226, 0.2) 100%);
 }
 
 .topser_card_left {
