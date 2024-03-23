@@ -400,7 +400,7 @@
         height: 40px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
     .btn-call{
         margin-right: 70px;
     }

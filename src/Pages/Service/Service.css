@@ -323,7 +323,7 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .topser_card_text{
         font-size: 12px;
     }
