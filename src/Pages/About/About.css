@@ -112,4 +112,9 @@
         margin-top: 0;
     }
 }
-
+ 
+@media (max-width:400px) {
+    .about_card_text{
+        font-size: 12px;
+    }
+}

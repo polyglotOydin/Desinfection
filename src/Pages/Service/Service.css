@@ -322,3 +322,34 @@
         font-size: 35px;
     }
 }
+
+@media (max-width:400px) {
+    .topser_card_text{
+        font-size: 12px;
+    }
+
+    .topser_card_title{
+        font-size: 20px;
+    }
+
+    .topser_card_pic{
+     width: 100px;
+     height: 100px;
+}
+
+    .service_cards{
+        justify-content: space-around;
+        height: 350px;
+    }
+
+    .sercive_img{
+        width: 100px;
+        height: 100px;
+    }
+    .service_card_text{
+        font-size: 12px;
+    }
+    .service_card_title{
+        font-size: 20px;
+    }
+}

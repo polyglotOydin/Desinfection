@@ -119,9 +119,10 @@
 
 
 .home_hero_top {
-    height: 490px;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0%;
 }
 
 .home_right {
@@ -211,6 +212,9 @@ top: 350px;
         display: none;
        
     }
+    .custom-btn_home.btn-11_home.btn_hm_H{
+        margin-bottom: 100px;
+    }
 
     .home_right {
         display: none;
@@ -240,6 +244,7 @@ top: 350px;
         padding: 20px 20px;
         border-radius: 20px;
     }
+    
 }
 
 
@@ -325,6 +330,7 @@ top: 350px;
 @media (max-width:400px) {
     .home_title {
         font-size: 30px;
+        padding-top: 40px;
     }
 
     .hero_contact_icon {
@@ -336,4 +342,14 @@ top: 350px;
         height: 50px;
         font-size: 17px;
     }
+    .home_info{
+        font-size: 13px;
+    }
+    .open_icon{
+        margin-right: 20px;
+    }
+    .logo_pic{
+    margin-left: -70px;
+    }
+   
 }

@@ -201,3 +201,9 @@
 
 
 }
+
+@media (max-width:400px) {
+    .contact_flex{
+        height: 430px;
+    }
+}
